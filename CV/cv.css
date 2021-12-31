@@ -1,0 +1,42 @@
+h1{background-color: black;
+	max-width: 870px;
+	text-align: center;
+	padding-bottom: 10px;
+	color: whitesmoke;
+	margin-left: 170px;
+	
+
+}
+
+p1{background-color: black;
+	
+	padding: 120px;
+	padding-bottom: 1000px;
+	padding-right: 500px;
+	margin-right: 15px;
+	
+}
+img{
+	align-self: left;
+}
+h2{
+	margin-right: 400px;
+	color: darkcyan;
+	margin-top: 10px;
+}
+h4{
+	margin-right: 410px;
+	color: gray;
+}
+p{
+	text-align: left;
+	padding-left: 220px;
+	color: white;
+	font-size: 18px;
+
+}
+h3{
+	color: yellow;
+	text-align: left;
+	padding-left: 200px;
+}

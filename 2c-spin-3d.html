@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      CSS Spinning Image
+    </title>
+    <style>
+      @keyframes spin3D {
+        from { transform: rotateY(0deg) }
+        to { transform: rotateY(360deg) }
+      }
+      .spinhov3D:hover {
+        animation-name: spin3D;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        /* linear | ease | ease-in | ease-out | ease-in-out */
+        animation-timing-function: ease-in-out;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="rocket.png" class="spinhov3D"/>
+    <strong>Hover to spin</strong>
+  </body>
+</html>

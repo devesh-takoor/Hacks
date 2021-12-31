@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      CSS Spinning Image
+    </title>
+    <style>
+      @keyframes spinning {
+        from { transform: rotate(0deg) }
+        to { transform: rotate(360deg) }
+      }
+      .spin {
+        animation-name: spinning;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        /* linear | ease | ease-in | ease-out | ease-in-out */
+        animation-timing-function: linear;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="rocket.png" class="spin"/>
+  </body>
+</html>
